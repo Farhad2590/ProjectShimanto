@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/slide.css">
+</head>
+
+<body>
+  <header class="container mx-auto w-[90%]">
+    <nav>
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Home</a></li>
+              <li>
+                <a>Courses</a>
+              </li>
+              <li><a>About</a></li>
+              <li>
+                <a>Pages</a>
+                <ul class="p-2">
+                  <li><a>Courses</a></li>
+                  <li><a>Events</a></li>
+                  <li><a>About</a></li>
+                </ul>
+              </li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+          <div class="flex gap-2  items-center">
+            <img class="w-[20%]" src="./assets/logo.jpeg" alt="" srcset="">
+            <p class="text-2xl font-extrabold">Edu<span class="span-orange">Care</span></p>
+          </div>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li><a>Courses</a></li>
+            <li><a>About</a></li>
+            <li><a>Event</a></li>
+            <li><a>Contact</a></li>
+            <li><a>Dashboard</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end flex gap-3">
+          <a class="btn">Sign In</a>
+          <a class="btn">Sign Up</a>
+        </div>
+      </div>
+    </nav>
+    <div class="relative bg-cover bg-center h-auto flex items-center justify-around pt-14"
+      style="background-image: url('./assets/banner.png')">
+      <div class="w-[50%] flex flex-col gap-8">
+        <h1 class="text-4xl font-bold">Unlock Knowledge Anywhere, Anytime With Experts.</h1>
+        <p>Our commitment is to guide you to the finest online courses, offering expert insights whenever and
+          wherever you are.</p>
+        <div class="banner-input-field flex items-center gap-4">
+          <input type="text" name="" id="" placeholder="What Do You Want To learn"
+            class="border border-gray-300 px-4 py-2 rounded-md w-64 focus:outline-none focus:border-blue-500">
+
+          <button class="banner-input-submit bg-blue-500 text-white px-4 py-2 rounded-md ml-2">Search</button>
+        </div>
+      </div>
+      <div class="w-[50%]">
+        <img class="w-[100%] pl-20" src="./assets/banner-image-01.png" alt="">
+      </div>
+    </div>
+  </header>
+  <main class="container mx-auto w-[90%]">
+    <section class="pt-14">
+      <div class="slide">
+        <div class="slide-text text-center ">
+          <h1 class="text-4xl text-white font-extrabold pt-6">Our Best Instructors</h1>
+          <p class="pt-6 pb-6">At Educare, we take pride in our team of exceptional instructors who are dedicated to nurturing the minds of our students and fostering a passion for learning. Our instructors are not just educators; they are mentors, guides, and role models who go above and beyond to ensure the success and growth of every student.</p>
+        </div>
+        <div class="slide-section">
+          <div class="swiper-container">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="image">
+                      <img src="./assets/instructor_image/one.jpg" alt="Card Image">
+                    </div>
+                    <h3>Ayo Ogunseinde</h3>
+                    <p>Graphics Instructor</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="image">
+                      <img src="./assets/instructor_image/two.jpg" alt="Card Image">
+                    </div>
+                    <h3>Aiony Haust</h3>
+                    <p>Web Instructor</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="image">
+                      <img src="./assets/instructor_image/three.jpg" alt="Card Image">
+                    </div>
+                    <h3>Ian Dooley</h3>
+                    <p>Ui/Ux Instructor</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="image">
+                      <img src="./assets/instructor_image/four.jpg" alt="Card Image">
+                    </div>
+                    <h3>Rafaella Mendes</h3>
+                    <p>Ai Instructor</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="image">
+                      <img src="./assets/instructor_image/one.jpg" alt="Card Image">
+                    </div>
+                    <h3>Ayo Ogunseinde</h3>
+                    <p>Software Instructor</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="image">
+                      <img src="./assets/instructor_image/one.jpg" alt="Card Image">
+                    </div>
+                    <h3>Aiony Haust</h3>
+                    <p>Marketing Instructor</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="image">
+                      <img src="./assets/instructor_image/two.jpg" alt="Card Image">
+                    </div>
+                    <h3>Ian Dooley</h3>
+                    <p>Support Teacher</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="image">
+                      <img src="./assets/instructor_image/three.jpg" alt="Card Image">
+                    </div>
+                    <h3>Rafaella Mendes</h3>
+                    <p>ML Instructor</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+  
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+  
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="js/slider.js"></script>
+</body>
+
+</html>
