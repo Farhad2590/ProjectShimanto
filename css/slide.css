@@ -101,3 +101,13 @@
   width: 15px;
   height: 15px;
 }
+.cardFeature{
+  padding : 32px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #fff;
+  transition: all 0.2s linear;
+  border: 1px solid #ebebf2;
+}
